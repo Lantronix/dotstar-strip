@@ -10,4 +10,4 @@
 # -----------------------------------------------------------------------------------
 
 CFILES := \
-  $(BASE_DIRECTORY)/module/led_strip/led_strip.c
+  $(BASE_DIRECTORY)/module/dotstar_strip/dotstar_strip.c

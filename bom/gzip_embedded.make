@@ -14,4 +14,4 @@
 # ----------------------------------------------------------------------------
 
 GZIP_EMBEDDED := \
-  $(BASE_DIRECTORY)/module/led_strip/http/web/user_data_specification.js \
+  $(BASE_DIRECTORY)/module/dotstar_strip/http/web/user_data_specification.js
