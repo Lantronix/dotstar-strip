@@ -27,30 +27,7 @@
 /*****************************************************************************/
 
 /*!
-** \addtogroup example
-** @{
-*/
-
-/*!
-** \defgroup spi_log spi_log
-** @{
-**
-** The \b spi_log module implements implements a rudimentary "SPI Protocol".
-** When this protocol is chosen by a SPI, it logs whatever it receives on the
-** SPI.
-**
-** Build it from project "spiLogDemo".
-**
-** To run it you will need to select protocol "Log" under SPI Configuration.
-**
-** Also, you will need to enable the SPI CPs: Under CPM Roles Configuration,
-** enable the SPI group of CPs.
-** HINT: If using the evaluation board, you may place a jumper between JP5
-** pins CP3 and CP4 to effect a loopback of your SPI data.
-** Note that the SPI group of CPs is ganged, so when you enable one, you
-** enable them all.
-** Also note that all the other CPM Roles referring to any of the SPI CPs must
-** be disabled.
+** See README.md markdown file
 */
 
 /*****************************************************************************/
