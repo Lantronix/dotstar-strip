@@ -255,7 +255,7 @@ static uint32_t getPortFromConfig(void) {
       return port;
     }
   }
-  return 0;
+  return 20000;
 }
 
 static void spiThread(void *opaque)
