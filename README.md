@@ -52,13 +52,13 @@ The code parses the UDP packet and determines what to send to the LED strip base
 The rest of the packet is sent directly to the LED strip. See the documentation from Adafruit on what needs to be sent.
 #### 01: All LEDs same pattern
 01|CNT|LED1|LED2|...|LEDn
--|-|-|
+---|---|---|
 Command|Number of LEDs|Pattern|Pattern|Patterns|Pattern
 
 Where each LED Pattern is 4 bytes:
 
 |111GGGGG|BLUE|GREEN|RED|
-|-|-|-|-|
+|---|---|---|---|
 |G is Brightness|Hex|Hex|Hex|
 
 Examples:
@@ -72,7 +72,7 @@ Examples:
 This allows you to define a pattern, like the command above. But it rotates it, wrapping it around the last LED, after a certain period of time.
 
 02|CNT|x 20ms|LED1|LED2|...|LEDn
--|-|-|
+---|---|---|
 Command|Number of LEDs|Period|Pattern|Pattern|Patterns|Pattern
 
 Where the period is in multiples of 20ms.
@@ -84,7 +84,7 @@ Example:
 As above, but instead of repeating the pattern on the whole strip and rotating it, it creates just one pattern and then bounces it from left to right and right to left as the pattern reaches each end.
 
 03|CNT|x 20ms|LED1|LED2|...|LEDn
--|-|-|
+---|---|---|
 Command|Number of LEDs|Period|Pattern|Pattern|Patterns|Pattern
 
 Example:
