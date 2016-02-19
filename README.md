@@ -5,6 +5,11 @@ This is a module for the xPico Wi-Fi SDK which uses the SPI interface to control
 
 ![Demo Picture](/docs/ledStrip.gif?raw=true)
 
+This module uses a few key features of the xPico Wi-Fi software:
+* Adding a tab to the configuration manager to add your own configurable items
+* Using the SPI master port of the xPico Wi-Fi to send custom data
+* Simultaneously listening on ports on the Client (wlan0) and SoftAP (ap0) interfaces
+
 ## Installation instructions
 Put this source code in c:\xpicowifi\custom\module\dotstar_strip directory. Create a project in c:\xpicowifi\custom\project that has dotstar_strip as one of the modules in the modules.make file. Build the project per the SDK instructions, and flash the firmware into an xPico Wi-Fi.
 
