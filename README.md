@@ -3,6 +3,8 @@
 ## Summary
 This is a module for the xPico Wi-Fi SDK which uses the SPI interface to control Dotstar LEDs. You can find more information from Adafruit here: https://learn.adafruit.com/adafruit-dotstar-leds
 
+The LED strip can be connected to the SPI port of the xPico Wi-Fi using your own designed board, or any of the Lantronix evaluation boards. You can find more information on the Lantronix evaluation boards here: http://www.lantronix.com/products/xpico-wi-fi/#tab-order
+
 ![Demo Picture](/docs/ledStrip.gif?raw=true)
 
 This module uses a few key features of the xPico Wi-Fi software:
